@@ -1,0 +1,22 @@
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.AssemblyReference.cache
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.CoreCompileInputs.cache
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\bin\Debug\BlackJackHost.exe.config
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\bin\Debug\BlackJackHost.exe
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\bin\Debug\BlackJackHost.pdb
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\bin\Debug\BlackJackLibrary.dll
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\bin\Debug\BlackJackLibrary.pdb
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.CopyComplete
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.exe
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.pdb
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\bin\Debug\BlackJackHost.exe.config
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\bin\Debug\BlackJackHost.exe
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\bin\Debug\BlackJackHost.pdb
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\bin\Debug\BlackJackLibrary.dll
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\bin\Debug\BlackJackLibrary.pdb
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.AssemblyReference.cache
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.SuggestedBindingRedirects.cache
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.CoreCompileInputs.cache
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.CopyComplete
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.exe
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.pdb

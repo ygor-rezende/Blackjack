@@ -1,0 +1,12 @@
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.AssemblyReference.cache
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackLibrary\bin\Debug\BlackJackLibrary.dll
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackLibrary\bin\Debug\BlackJackLibrary.pdb
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.dll
+C:\Users\Saeed\source\repos\Winter 2023\.NET\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.pdb
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\bin\Debug\BlackJackLibrary.dll
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\bin\Debug\BlackJackLibrary.pdb
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.AssemblyReference.cache
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.CoreCompileInputs.cache
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.dll
+C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.pdb
