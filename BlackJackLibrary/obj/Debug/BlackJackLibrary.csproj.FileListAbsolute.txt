@@ -10,3 +10,9 @@ C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\obj\Debug
 C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.CoreCompileInputs.cache
 C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.dll
 C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackLibrary\obj\Debug\BlackJackLibrary.pdb
+Z:\Blackjack\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.AssemblyReference.cache
+Z:\Blackjack\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.CoreCompileInputs.cache
+Z:\Blackjack\BlackJackLibrary\obj\Debug\BlackJackLibrary.dll
+Z:\Blackjack\BlackJackLibrary\obj\Debug\BlackJackLibrary.pdb
+Z:\Blackjack\BlackJackLibrary\bin\Debug\BlackJackLibrary.dll
+Z:\Blackjack\BlackJackLibrary\bin\Debug\BlackJackLibrary.pdb

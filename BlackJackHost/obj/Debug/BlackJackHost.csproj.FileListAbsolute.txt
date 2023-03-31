@@ -20,3 +20,14 @@ C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\Bl
 C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.csproj.CopyComplete
 C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.exe
 C:\0_fanshawe_repository\DotNet\Project2\NET_Project2\BlackJackHost\obj\Debug\BlackJackHost.pdb
+Z:\Blackjack\BlackJackHost\bin\Debug\BlackJackHost.exe.config
+Z:\Blackjack\BlackJackHost\bin\Debug\BlackJackHost.exe
+Z:\Blackjack\BlackJackHost\bin\Debug\BlackJackHost.pdb
+Z:\Blackjack\BlackJackHost\bin\Debug\BlackJackLibrary.dll
+Z:\Blackjack\BlackJackHost\bin\Debug\BlackJackLibrary.pdb
+Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.AssemblyReference.cache
+Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.SuggestedBindingRedirects.cache
+Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.CoreCompileInputs.cache
+Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.CopyComplete
+Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.exe
+Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.pdb

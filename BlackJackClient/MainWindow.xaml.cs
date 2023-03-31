@@ -92,18 +92,20 @@ namespace CardsGUIClient
         // Runs when the user clicks the Stand button
         private void ButtonStand_Click(object sender, RoutedEventArgs e)
         {
+
+
             try
             {
-                if (isClientTurn) 
+                if (isClientTurn)
                 {
                     isClientTurn = false;
                     stand = true;
                     shoe.UpdateLibraryWithClientInfo(clientId, cardsOnHandCount, stand);
                     MessageBox.Show("You chose to stand. Wait for the round's results.");
                 }
-                else
+                else 
                 {
-                    MessageBox.Show("Another player is playing.", "Wait for your turn");
+                    MessageBox.Show($"Another player is playing.", $"Wait for your turn"); //[{isSomeonesTurn}]
                 }
             }
             catch (Exception ex)
@@ -182,6 +184,17 @@ namespace CardsGUIClient
         {
 
         }
+        private void ListDealerCards_SelectionChanged()
+        {
+            // MessageBox.Show("LOG - DEALING DEALER CARDS");
+            /* IMPLEMENTATION ATTEMPT */
+            Card card1 = shoe?.Draw();
+            Card card2 = shoe?.Draw();
+            ListDealerCards.Items.Insert(0, card2);
+            ListDealerCards.Items.Insert(0, card1);
+            UpdateCardCounts();
+
+        }
 
 
         //ICallback interface method implementation
@@ -199,8 +212,11 @@ namespace CardsGUIClient
 
                 if(info.IsRoundDone)
                 {
+                    ListDealerCards_SelectionChanged();
                     //reset player information
                     MessageBox.Show("This round is over. Starting a new round.");
+                    
+
                     ListCards.Items.Clear();
                     cardsOnHandCount = 0;
                     ListCards.Items.Add(info.ClientCards[0]);

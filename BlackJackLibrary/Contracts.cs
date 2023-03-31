@@ -33,5 +33,7 @@ namespace BlackJackLibrary
         void UnregisterForCallbacks(uint clientId);
         [OperationContract(IsOneWay = true)]
         void UpdateLibraryWithClientInfo(uint clientId, uint clientPoints, bool stand);
+        HashSet<Client> getClients();
+        int NumClients();
     }
 }

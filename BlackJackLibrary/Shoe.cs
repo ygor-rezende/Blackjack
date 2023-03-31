@@ -182,6 +182,9 @@ namespace BlackJackLibrary
                 LibraryCallback info = new LibraryCallback(clients, isRoundFinished, new List<Card>(), nextClientId);
                 if (isRoundFinished)
                 {
+
+
+
                     isRoundFinished = false;
                     Shuffle();
                     //deal 2 new cards for each player                    
@@ -284,6 +287,13 @@ namespace BlackJackLibrary
 
             return false;
         }
-
+        public int NumClients()
+        {
+            return clients.Count;
+        }
+        public HashSet<Client> getClients()
+        {
+            return clients;
+        }
     } // end class
 }
