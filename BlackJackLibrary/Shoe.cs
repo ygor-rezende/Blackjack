@@ -182,13 +182,14 @@ namespace BlackJackLibrary
                 LibraryCallback info = new LibraryCallback(clients, isRoundFinished, new List<Card>(), nextClientId);
                 if (isRoundFinished)
                 {
+                    isRoundFinished = false;
                     Shuffle();
                     //deal 2 new cards for each player                    
                     foreach (ICallback calback in callbacks)
                     {
                         List<Card> cards = new List<Card>() { Draw(), Draw(), };
                         info.ClientCards = cards;
-                        calback.UpdateClient(info);
+                        calback.UpdateClient(info);      
                     }
                 }
                 else
@@ -252,7 +253,7 @@ namespace BlackJackLibrary
         private bool ComputeRoundResults(ref HashSet<Client> clients)
         {
             //check if any client got a blackjack
-            var client = clients.FirstOrDefault(element => element.Score == 21);
+            var client = clients.FirstOrDefault(element => element.TotalPoints == 21);
             if (client != null)
             {
                 client.Score++;

@@ -196,6 +196,7 @@ namespace CardsGUIClient
                 {
                     ListPlayers.Items.Add($"Player {client.ClientID}: {client.Score}");
                 }
+
                 if(info.IsRoundDone)
                 {
                     //reset player information
@@ -205,6 +206,7 @@ namespace CardsGUIClient
                     ListCards.Items.Add(info.ClientCards[0]);
                     ListCards.Items.Add(info.ClientCards[1]);
                     stand = false;
+                    
                     UpdateCardCounts();                    
                 }
 
