@@ -164,7 +164,6 @@ namespace CardsGUIClient
 
             //Inform other clients the number of points
             shoe.UpdateLibraryWithClientInfo(clientId, cardsOnHandCount, stand);
-
         }
 
 
