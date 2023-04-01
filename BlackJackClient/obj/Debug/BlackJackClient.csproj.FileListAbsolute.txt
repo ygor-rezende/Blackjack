@@ -55,3 +55,22 @@ Z:\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.csproj.CoreCompileInputs.
 Z:\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.csproj.CopyComplete
 Z:\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.exe
 Z:\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.pdb
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\bin\Debug\BlackJackClient.exe.config
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\bin\Debug\BlackJackClient.exe
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\bin\Debug\BlackJackClient.pdb
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\bin\Debug\BlackJackLibrary.dll
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\bin\Debug\BlackJackLibrary.pdb
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.csproj.AssemblyReference.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\MainWindow.g.cs
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\App.g.cs
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient_MarkupCompile.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient_MarkupCompile.lref
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\MainWindow.baml
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.g.resources
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.Properties.Resources.resources
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.csproj.GenerateResource.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.csproj.CoreCompileInputs.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.csproj.CopyComplete
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.exe
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.pdb

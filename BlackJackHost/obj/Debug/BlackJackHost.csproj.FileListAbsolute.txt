@@ -31,3 +31,14 @@ Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.CoreCompileInputs.cach
 Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.CopyComplete
 Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.exe
 Z:\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.pdb
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\bin\Debug\BlackJackHost.exe.config
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\bin\Debug\BlackJackHost.exe
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\bin\Debug\BlackJackHost.pdb
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\bin\Debug\BlackJackLibrary.dll
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\bin\Debug\BlackJackLibrary.pdb
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.csproj.AssemblyReference.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.csproj.CoreCompileInputs.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.csproj.CopyComplete
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.exe
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.pdb
