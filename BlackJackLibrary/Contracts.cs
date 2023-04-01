@@ -25,6 +25,8 @@ namespace BlackJackLibrary
         void Shuffle();
         [OperationContract]
         Card Draw();
+        [OperationContract]
+        Card GetCardback();
         uint NumDecks { [OperationContract] get; [OperationContract] set; }
         uint NumCards { [OperationContract] get; }
         [OperationContract]

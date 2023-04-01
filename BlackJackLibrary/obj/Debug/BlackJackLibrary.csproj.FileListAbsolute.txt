@@ -16,3 +16,9 @@ Z:\Blackjack\BlackJackLibrary\obj\Debug\BlackJackLibrary.dll
 Z:\Blackjack\BlackJackLibrary\obj\Debug\BlackJackLibrary.pdb
 Z:\Blackjack\BlackJackLibrary\bin\Debug\BlackJackLibrary.dll
 Z:\Blackjack\BlackJackLibrary\bin\Debug\BlackJackLibrary.pdb
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackLibrary\bin\Debug\BlackJackLibrary.dll
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackLibrary\bin\Debug\BlackJackLibrary.pdb
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.AssemblyReference.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackLibrary\obj\Debug\BlackJackLibrary.csproj.CoreCompileInputs.cache
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackLibrary\obj\Debug\BlackJackLibrary.dll
+D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackLibrary\obj\Debug\BlackJackLibrary.pdb

@@ -15,10 +15,9 @@ namespace BlackJackLibrary
         //Dictionary of cards: Key - name, value - integer value for a card
         private static readonly Dictionary<string, uint> ranks = new Dictionary<string, uint>()
         {
-            //{ "Cardback", 0 },
             { "Ace", 1 },
             { "Two", 2 },
-            { "Three", 3},
+            { "Three", 3 },
             { "Four", 4 },
             { "Five", 5 },
             { "Six", 6 },
@@ -27,8 +26,8 @@ namespace BlackJackLibrary
             { "Nine", 9 },
             { "Ten", 10 },
             { "Jack", 11 },
-            { "Queen", 13 },
-            { "King", 14 },
+            { "Queen", 12 },
+            { "King", 13 },
         };
 
         //Dictionary of Suits: Key - name, value - integer value to represent a card in Hexadecimal
@@ -44,6 +43,8 @@ namespace BlackJackLibrary
 
         // List of Card objects
         private List<Card> cards = new List<Card>();
+        // List of the Dealers cards
+        private List<Card> dealerCards = new List<Card>();
         // Index of card to track cards in the list
         private int cardsIndex = 0;
         // Default number of decks = 6
@@ -99,6 +100,8 @@ namespace BlackJackLibrary
             return card;
         }
 
+        public Card GetCardback() => new Card(10, 0);
+
         //Shuffle Method: Shuffle the sequence of cards in the cards collection randomly
         public void Shuffle()
         {
@@ -144,7 +147,7 @@ namespace BlackJackLibrary
             {
                 clients.Remove(client);
                 callbacks.Remove(callback);
-                LibraryCallback info = new LibraryCallback(clients, false, new List<Card>(), nextClientId);
+                LibraryCallback info = new LibraryCallback(clients, false, new List<Card>(), new List<Card>(), nextClientId);
                 foreach (ICallback calback in callbacks)
                 {
                     calback.UpdateClient(info);
@@ -179,7 +182,7 @@ namespace BlackJackLibrary
                 client.Stand = stand;
                 clients.Add(client);
                 bool isRoundFinished = ComputeRoundResults(ref clients);
-                LibraryCallback info = new LibraryCallback(clients, isRoundFinished, new List<Card>(), nextClientId);
+                LibraryCallback info = new LibraryCallback(clients, isRoundFinished, new List<Card>(), new List<Card>(), nextClientId);
                 if (isRoundFinished)
                 {
 
@@ -187,6 +190,16 @@ namespace BlackJackLibrary
 
                     isRoundFinished = false;
                     Shuffle();
+                    // deal 2 new cards for dealer
+                    dealerCards.Clear();
+                    dealerCards.AddRange(new List<Card>() { Draw(), Draw() });
+                    info.DealerCards = dealerCards;
+
+                    while (info.DealerCards.Sum(card => card.Rank) <= 16)
+                    {
+                        info.DealerCards.Add(Draw());
+                    }
+
                     //deal 2 new cards for each player                    
                     foreach (ICallback calback in callbacks)
                     {
@@ -256,31 +269,48 @@ namespace BlackJackLibrary
         private bool ComputeRoundResults(ref HashSet<Client> clients)
         {
             //check if any client got a blackjack
-            var client = clients.FirstOrDefault(element => element.TotalPoints == 21);
-            if (client != null)
+            var blackjackClients = clients.Where(element => element.TotalPoints == 21);
+
+            uint dealersTotalPoints = 0;
+            foreach (Card card in dealerCards)
             {
-                client.Score++;
+                //If the card is an ace and the sum of points are 
+                //less or equal to 10, the ace counts as 11 points
+                if (card.Rank == 1 && dealersTotalPoints <= 10)
+                {
+                    dealersTotalPoints += 11;
+                }
+                else
+                {
+                    dealersTotalPoints += (uint)card.Rank;
+                }
+            }
+            bool dealerHasBlackjack = dealersTotalPoints == 21 ? true : false;
+            if (blackjackClients.Count() > 1 || dealerHasBlackjack || (blackjackClients.Count() >= 1 && dealerHasBlackjack))
+            {
+                return true;
+            }
+            else if (blackjackClients.Count() == 1)
+            {
+                blackjackClients.First().Score++;
                 return true;
             }
             //check if all clients have stand
-            client = clients.FirstOrDefault(element => element.Stand == false);
+            Client client = clients.FirstOrDefault(element => element.Stand == false);
             if (client == null)
             {
                 //find client with highest points
                 var orderedClients = clients.Where(element => element.TotalPoints < 21).OrderBy(element => element.TotalPoints);
-                if(orderedClients.ToArray().Length != 0)
+                if (orderedClients.Count() != 0)
                 {
-                    client = orderedClients.Last();
-                    var highestPoints = client.TotalPoints;
+                    uint highestPoints = orderedClients.Last().TotalPoints;
                     //check if there are other clients with the same total points
-                    var winners = orderedClients.Where(element => element.TotalPoints == highestPoints);
-                    
-                    //loop through the winners and add a point to the score
-                    foreach(var winner in winners)
+                    var tiedClients = orderedClients.Where(element => element.TotalPoints == highestPoints).ToList();
+
+                    if (tiedClients.Count() == 1 && highestPoints > dealersTotalPoints)
                     {
-                        winner.Score++;
+                        tiedClients[0].Score++;
                     }
-                    
                 }
                 return true;
             }

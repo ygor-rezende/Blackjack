@@ -28,7 +28,8 @@ namespace BlackJackLibrary
         // When printing a card its image is displayed 
         public override string ToString()
         {
-            string card = char.ConvertFromUtf32(Int32.Parse(Suit.ToString("X") + Rank.ToString("X"), System.Globalization.NumberStyles.HexNumber) + 0x1F000);
+            uint asciiCodeRank = Rank >= 12 ? Rank + 1 : Rank;
+            string card = char.ConvertFromUtf32(Int32.Parse(Suit.ToString("X") + asciiCodeRank.ToString("X"), System.Globalization.NumberStyles.HexNumber) + 0x1F000);
             Console.WriteLine(card);
             return card;
         }

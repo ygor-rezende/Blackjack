@@ -8,7 +8,7 @@
         Title="My Cards" Height="550" Width="829" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
     <Grid RenderTransformOrigin="0.5,0.5">
         <Grid.Background>
-            <ImageBrush ImageSource="Images/blackjacktable.jpg"/>
+            <ImageBrush Opacity="0.8" ImageSource="Images/blackjacktable.jpg"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -21,7 +21,7 @@
                 <TranslateTransform/>
             </TransformGroup>
         </Grid.RenderTransform>
-        <ListBox x:Name="ListCards" BorderThickness="3" FontSize="100" HorizontalAlignment="Left" Height="149" Margin="153,356,0,0" VerticalAlignment="Top" Width="512" Background="Transparent" Grid.ColumnSpan="2" >
+        <ListBox x:Name="ListCards" BorderThickness="3" FontSize="100" HorizontalAlignment="Left" Height="149" Margin="158,356,0,0" VerticalAlignment="Top" Width="512" Background="Transparent" Grid.ColumnSpan="2" >
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
@@ -35,13 +35,13 @@
         <Label x:Name="currentPoints" Content="You Have a Total of: " HorizontalAlignment="Left" Height="36" Margin="153,320,0,0" VerticalAlignment="Top" Width="512" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2"/>
         <Label x:Name="CurrentPlayer" Content="It Is Currently Player #'s Turn..." HorizontalAlignment="Left" Height="29" Margin="10,265,0,0" VerticalAlignment="Top" Width="220" FontWeight="Bold" FontSize="14"/>
         <ListBox x:Name="ListPlayers" BorderThickness="3" FontSize="12" HorizontalAlignment="Left" Height="199" Margin="10,306,0,0" VerticalAlignment="Top" Width="118" Background="Transparent" SelectionChanged="ListCards_Copy_SelectionChanged"/>
-        <ListBox x:Name="ListDealerCards" BorderThickness="3" FontSize="100" HorizontalAlignment="Left" Height="114" Margin="153,8,0,0" VerticalAlignment="Top" Width="512" Background="Transparent" Grid.ColumnSpan="2" >
+        <ListBox x:Name="ListDealerCards" BorderThickness="3" FontSize="100" HorizontalAlignment="Left" Height="140" Margin="153,8,0,0" VerticalAlignment="Top" Width="512" Background="Transparent" Grid.ColumnSpan="2" >
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel Orientation="Horizontal"/>
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
         </ListBox>
-        <Label Content="Cards in Dealer's Hand" FontSize="20" HorizontalAlignment="Left" Height="41" Margin="305,127,0,0" VerticalAlignment="Top" Width="219" Grid.ColumnSpan="2"/>
+        <Label Content="Cards in Dealer's Hand" FontSize="20" HorizontalAlignment="Left" Height="41" Margin="305,148,0,0" VerticalAlignment="Top" Width="219" Grid.ColumnSpan="2" FontWeight="Bold"/>
     </Grid>
 </Window>
