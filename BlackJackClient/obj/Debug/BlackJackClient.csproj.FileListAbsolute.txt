@@ -74,3 +74,22 @@ D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJa
 D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.csproj.CopyComplete
 D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.exe
 D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackClient\obj\Debug\BlackJackClient.pdb
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\bin\Debug\BlackJackClient.exe.config
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\bin\Debug\BlackJackClient.exe
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\bin\Debug\BlackJackClient.pdb
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\bin\Debug\BlackJackLibrary.dll
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\bin\Debug\BlackJackLibrary.pdb
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.csproj.AssemblyReference.cache
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.csproj.SuggestedBindingRedirects.cache
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\MainWindow.g.cs
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\App.g.cs
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient_MarkupCompile.cache
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient_MarkupCompile.lref
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\MainWindow.baml
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.g.resources
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.Properties.Resources.resources
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.csproj.GenerateResource.cache
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.csproj.CoreCompileInputs.cache
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.csproj.CopyComplete
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.exe
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackClient\obj\Debug\BlackJackClient.pdb

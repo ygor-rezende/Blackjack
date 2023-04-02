@@ -42,3 +42,14 @@ D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJack
 D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.csproj.CopyComplete
 D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.exe
 D:\Downloads\Blackjack-main (1)\Blackjack-main\BlackJackHost\obj\Debug\BlackJackHost.pdb
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\bin\Debug\BlackJackHost.exe.config
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\bin\Debug\BlackJackHost.exe
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\bin\Debug\BlackJackHost.pdb
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\bin\Debug\BlackJackLibrary.dll
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\bin\Debug\BlackJackLibrary.pdb
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.AssemblyReference.cache
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.SuggestedBindingRedirects.cache
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.CoreCompileInputs.cache
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.csproj.CopyComplete
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.exe
+C:\0_fanshawe_repository\DotNet\Project2\Project2\Blackjack\BlackJackHost\obj\Debug\BlackJackHost.pdb

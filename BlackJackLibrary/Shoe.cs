@@ -155,15 +155,6 @@ namespace BlackJackLibrary
             }
         }
 
-        //private void UpdateAllClients(bool emptyHand)
-        //{
-        //    LibraryCallback info = new LibraryCallback(NumCards, numDecks, emptyHand);
-
-        //    foreach (ICallback calback in callbacks)
-        //    {
-        //        calback.UpdateClient(info);
-        //    }
-        //}
 
         public void UpdateLibraryWithClientInfo(uint clientId, uint clientPoints, bool stand)
         {
@@ -181,13 +172,14 @@ namespace BlackJackLibrary
                 client.TotalPoints = clientPoints;
                 client.Stand = stand;
                 clients.Add(client);
-                bool isRoundFinished = ComputeRoundResults(ref clients);
+                //check if there is any client that have not stand yet
+                var anyStandClient = clients.FirstOrDefault(element => element.Stand == false);
+                bool isRoundFinished = anyStandClient == null;
+
                 LibraryCallback info = new LibraryCallback(clients, isRoundFinished, new List<Card>(), new List<Card>(), nextClientId);
+                //If there isn't any client that still stands
                 if (isRoundFinished)
                 {
-
-
-
                     isRoundFinished = false;
                     Shuffle();
                     // deal 2 new cards for dealer
@@ -195,10 +187,23 @@ namespace BlackJackLibrary
                     dealerCards.AddRange(new List<Card>() { Draw(), Draw() });
                     info.DealerCards = dealerCards;
 
-                    while (info.DealerCards.Sum(card => card.Rank) <= 16)
+                    long sumDealerCards = info.DealerCards.Sum(card => card.Rank);
+                    while (sumDealerCards <= 16)
                     {
-                        info.DealerCards.Add(Draw());
+                        Card card = Draw();
+                        if(card.Rank == 1 && sumDealerCards <=10)
+                        {
+                            sumDealerCards += 11;
+                        }
+                        else
+                        {
+                            sumDealerCards += (uint)card.Rank;
+                        }
+                        info.DealerCards.Add(card);
                     }
+
+                    //Compute the results after drawing the dealer's cards
+                    ComputeRoundResults(ref clients);
 
                     //deal 2 new cards for each player                    
                     foreach (ICallback calback in callbacks)
@@ -215,8 +220,6 @@ namespace BlackJackLibrary
                         calback.UpdateClient(info);
                     }
                 }
-                
-                
                 
             } 
         }
@@ -271,6 +274,7 @@ namespace BlackJackLibrary
             //check if any client got a blackjack
             var blackjackClients = clients.Where(element => element.TotalPoints == 21);
 
+            //calculate the total points the dealer has
             uint dealersTotalPoints = 0;
             foreach (Card card in dealerCards)
             {
@@ -285,11 +289,16 @@ namespace BlackJackLibrary
                     dealersTotalPoints += (uint)card.Rank;
                 }
             }
+
+            //check if the dealer has a blackjack
             bool dealerHasBlackjack = dealersTotalPoints == 21 ? true : false;
+
+            //Check if any player or the dealer got a blackjack 
             if (blackjackClients.Count() > 1 || dealerHasBlackjack || (blackjackClients.Count() >= 1 && dealerHasBlackjack))
             {
                 return true;
             }
+            //if only one player got a blackjack add a point to their score
             else if (blackjackClients.Count() == 1)
             {
                 blackjackClients.First().Score++;
@@ -307,7 +316,8 @@ namespace BlackJackLibrary
                     //check if there are other clients with the same total points
                     var tiedClients = orderedClients.Where(element => element.TotalPoints == highestPoints).ToList();
 
-                    if (tiedClients.Count() == 1 && highestPoints > dealersTotalPoints)
+                    Console.WriteLine("Highest Points:" + highestPoints + " Dealer Points: " + dealersTotalPoints);
+                    if (tiedClients.Count() == 1 && (highestPoints > dealersTotalPoints || dealersTotalPoints > 21))
                     {
                         tiedClients[0].Score++;
                     }
