@@ -107,7 +107,7 @@ namespace CardsGUIClient
                     shoe.UpdateLibraryWithClientInfo(clientId, cardsOnHandCount, stand);
                     MessageBox.Show("You chose to stand. Wait for the round's results.");
                 }
-                else 
+                else
                 {
                     MessageBox.Show($"Another player is playing.", $"Wait for your turn"); //[{isSomeonesTurn}]
                 }
@@ -132,7 +132,8 @@ namespace CardsGUIClient
         private void UpdateCardCounts()
         {
             
-            currentPoints.Content = $"Player {clientId}, You have a total of: ";
+            currentPoints.Content = $"You have a total of: ";
+            CardOnHandLabel.Content = $"Player {clientId} cards on hand";
             CurrentPlayer.Content = $"Current player playing: ";
             cardsOnHandCount = 0;
             foreach (Card card in ListCards.Items)
